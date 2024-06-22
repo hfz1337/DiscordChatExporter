@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA305DD5-1F98-415D-B6C4-65053A58F914}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		DiscordChatExporter.Cli.dockerfile = DiscordChatExporter.Cli.dockerfile
+		License.txt = License.txt
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordChatExporter.Cli", "DiscordChatExporter.Cli\DiscordChatExporter.Cli.csproj", "{D08624B6-3081-4BCB-91F8-E9832FACC6CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordChatExporter.Core", "DiscordChatExporter.Core\DiscordChatExporter.Core.csproj", "{E19980B9-2B84-4257-A517-540FF1E3FCDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D08624B6-3081-4BCB-91F8-E9832FACC6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08624B6-3081-4BCB-91F8-E9832FACC6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08624B6-3081-4BCB-91F8-E9832FACC6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08624B6-3081-4BCB-91F8-E9832FACC6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E19980B9-2B84-4257-A517-540FF1E3FCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19980B9-2B84-4257-A517-540FF1E3FCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19980B9-2B84-4257-A517-540FF1E3FCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19980B9-2B84-4257-A517-540FF1E3FCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51587D08-01E1-4511-AC57-A417D1A9162F}
+	EndGlobalSection
+EndGlobal
