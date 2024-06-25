@@ -53,7 +53,7 @@ public abstract class ExportCommandBase : DiscordCommandBase
 
     public bool ShouldFormatMarkdown { get; init; } = true;
 
-    public bool ShouldDownloadAssets { get; init; }
+    public bool ShouldDownloadAssets { get; init; } = true;
 
     public bool ShouldReuseAssets { get; init; } = false;
 
